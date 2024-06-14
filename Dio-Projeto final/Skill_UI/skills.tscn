@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=3 uid="uid://vogxi6ao7rj0"]
+
+[sub_resource type="GDScript" id="GDScript_s1xjh"]
+script/source = "extends Node2D
+class_name ritual_skill
+
+var ritual_damage: float = 5.5
+var ritual_cooldown: float = 0
+var ritual_interval: float = 15
+var ritual_cost: int = 15
+var mana: int = 30
+var mana_regeneration_active: bool = false
+var ritual_scene: PackedScene
+
+# Setter para a cena do ritual
+func set_ritual_scene(scene: PackedScene) -> void:
+	ritual_scene = scene
+
+	# Atualizar cooldown do Ritual
+func update_ritual(delta: float) -> void:
+	if ritual_cooldown > 0: 
+		ritual_cooldown -= delta	
+		print(\"Ritual\", ritual_cooldown)
+	
+	
+	# Ativação Do Ritualfunc activate_ritual() -> void:
+	if ritual_cooldown > 0 or mana < ritual_cost:
+		return
+	ritual_cooldown = ritual_interval
+	
+	mana -= ritual_cost
+	print(\"Mana\", mana)
+	mana_regeneration_active = true
+	
+	var ritual_instance = ritual_scene.instance()
+	if ritual_instance != null:
+		ritual_instance.damage_amount = ritual_damage
+		add_child(ritual_instance)
+
+
+	var ritual = ritual_scene.instantiate()
+	ritual.damage_amount = ritual_damage
+	add_child(ritual)
+"
+
+[node name="Skills" type="Node2D"]
+script = SubResource("GDScript_s1xjh")

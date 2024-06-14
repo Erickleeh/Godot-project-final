@@ -1,0 +1,5 @@
+res://main_scene.tscn
+res://Systems/difficuty_system.gd
+res://TesteScene/player_teste.tscn
+res://UI/game_over_ui.tscn
+res://UI/game_ui.tscn

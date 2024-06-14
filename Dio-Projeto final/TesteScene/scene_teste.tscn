@@ -1,0 +1,980 @@
+[gd_scene load_steps=145 format=3 uid="uid://ditqx8p7i5eo5"]
+
+[ext_resource type="Texture2D" uid="uid://deq1fyjgv24q0" path="res://addons/Tiny Swords (Update 010)/UI/Banners/Carved_Regular.png" id="1_t4qks"]
+[ext_resource type="Texture2D" uid="uid://cvq1r1g081bs4" path="res://addons/Tiny Swords (Update 010)/UI/Banners/Carved_9Slides.png" id="2_s2v7l"]
+[ext_resource type="Texture2D" uid="uid://cyaa5q2simaii" path="res://addons/Tiny Swords (Update 010)/UI/Banners/Carved_3Slides.png" id="3_q5aq1"]
+[ext_resource type="Texture2D" uid="uid://bbjknt0nlpm2v" path="res://addons/Tiny Swords (Update 010)/UI/Banners/Banner_Vertical.png" id="4_4hau3"]
+[ext_resource type="Texture2D" uid="uid://ce2en5cnu2y8l" path="res://addons/Tiny Swords (Update 010)/UI/Banners/Banner_Horizontal.png" id="5_4ecm7"]
+[ext_resource type="Texture2D" uid="uid://bh2pktq5xh7xg" path="res://addons/Tiny Swords (Update 010)/UI/Banners/Banner_Connection_Up.png" id="6_i846x"]
+[ext_resource type="Texture2D" uid="uid://dhmw4pb3nurg3" path="res://addons/Tiny Swords (Update 010)/UI/Banners/Banner_Connection_Right.png" id="7_54x8b"]
+[ext_resource type="Texture2D" uid="uid://dilf6m668vkwq" path="res://addons/Tiny Swords (Update 010)/UI/Banners/Banner_Connection_Left.png" id="8_1hcw2"]
+[ext_resource type="Texture2D" uid="uid://dmws2mklra51n" path="res://addons/Tiny Swords (Update 010)/UI/Banners/Banner_Connection_Down.png" id="9_ikmfn"]
+[ext_resource type="Texture2D" uid="uid://dk6pwdbs7tii" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Blue.png" id="10_tauqn"]
+[ext_resource type="Texture2D" uid="uid://chhjiph1tembf" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_3Slides.png" id="11_jrg2c"]
+[ext_resource type="Texture2D" uid="uid://tkny0g1oplfd" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_3Slides_Pressed.png" id="12_d8esf"]
+[ext_resource type="Texture2D" uid="uid://g8k21m5uwq0g" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_9Slides.png" id="13_ih23y"]
+[ext_resource type="Texture2D" uid="uid://cvtr7y1m6yoe8" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_9Slides_Pressed.png" id="14_adff1"]
+[ext_resource type="Texture2D" uid="uid://ccel0ul3pqg78" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_Pressed.png" id="15_6kj2b"]
+[ext_resource type="Texture2D" uid="uid://cpfi8q8s4mqhs" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Disable.png" id="16_bcunk"]
+[ext_resource type="Texture2D" uid="uid://cw26sctjp7r20" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Disable_3Slides.png" id="17_mtekm"]
+[ext_resource type="Texture2D" uid="uid://dqlun1tfcm74c" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Disable_9Slides.png" id="18_3486d"]
+[ext_resource type="Texture2D" uid="uid://x0is2knb8ies" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Hover.png" id="19_oce4e"]
+[ext_resource type="Texture2D" uid="uid://b6enbd0v5pfre" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Hover_3Slides.png" id="20_ic60d"]
+[ext_resource type="Texture2D" uid="uid://bb148ca7iagjf" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Hover_9Slides.png" id="21_rddeb"]
+[ext_resource type="Texture2D" uid="uid://bf5ibjysbh7y3" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Red.png" id="22_o758d"]
+[ext_resource type="Texture2D" uid="uid://csc0qjkles2mu" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Red_3Slides.png" id="23_ne8va"]
+[ext_resource type="Texture2D" uid="uid://dn3e46k4ruwcl" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Red_3Slides_Pressed.png" id="24_20mhv"]
+[ext_resource type="Texture2D" uid="uid://2exuw7m6u5wy" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Red_9Slides.png" id="25_r58sk"]
+[ext_resource type="Texture2D" uid="uid://dbwkb4a5f83ps" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Red_9Slides_Pressed.png" id="26_bl0ua"]
+[ext_resource type="Texture2D" uid="uid://cs0asqeeh6kgj" path="res://addons/Tiny Swords (Update 010)/UI/Buttons/Button_Red_Pressed.png" id="27_qgxm8"]
+[ext_resource type="Texture2D" uid="uid://xgdqn7vv8lbs" path="res://addons/Tiny Swords (Update 010)/UI/Pointers/01.png" id="28_13s2t"]
+[ext_resource type="Texture2D" uid="uid://bwwt7lbo16dem" path="res://addons/Tiny Swords (Update 010)/UI/Pointers/02.png" id="29_yexff"]
+[ext_resource type="Texture2D" uid="uid://cvuf5dgggncaq" path="res://addons/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Blue_3Slides.png" id="30_rn46q"]
+[ext_resource type="Texture2D" uid="uid://d26ubomas8nue" path="res://addons/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_3Slides.png" id="31_44tdn"]
+[ext_resource type="Texture2D" uid="uid://cgypfrinw7jcf" path="res://addons/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_3Slides.png" id="32_2gycj"]
+[ext_resource type="Texture2D" uid="uid://dr7dar3na80i8" path="res://addons/Tiny Swords (Update 010)/Deco/01.png" id="33_8j7q2"]
+[ext_resource type="Texture2D" uid="uid://bcm681i0il1sw" path="res://addons/Tiny Swords (Update 010)/Deco/02.png" id="34_g30xg"]
+[ext_resource type="Texture2D" uid="uid://bo45okek77sux" path="res://addons/Tiny Swords (Update 010)/Deco/03.png" id="35_ialwe"]
+[ext_resource type="Texture2D" uid="uid://fw2hukpfqndc" path="res://addons/Tiny Swords (Update 010)/Deco/04.png" id="36_2lkh2"]
+[ext_resource type="Texture2D" uid="uid://cvjtolvvxt3bt" path="res://addons/Tiny Swords (Update 010)/Deco/05.png" id="37_0714y"]
+[ext_resource type="Texture2D" uid="uid://lkykjowtkwdg" path="res://addons/Tiny Swords (Update 010)/Deco/06.png" id="38_hc7c6"]
+[ext_resource type="Texture2D" uid="uid://dj5o3g1q1yhag" path="res://addons/Tiny Swords (Update 010)/Deco/07.png" id="39_4be5h"]
+[ext_resource type="Texture2D" uid="uid://b5jgyqjif2qj" path="res://addons/Tiny Swords (Update 010)/Deco/08.png" id="40_niqyr"]
+[ext_resource type="Texture2D" uid="uid://cw1v8s3te61um" path="res://addons/Tiny Swords (Update 010)/Deco/09.png" id="41_wj8js"]
+[ext_resource type="Texture2D" uid="uid://cvm3talx2oe46" path="res://addons/Tiny Swords (Update 010)/Deco/10.png" id="42_46vvn"]
+[ext_resource type="Texture2D" uid="uid://pa48cqbo2hsf" path="res://addons/Tiny Swords (Update 010)/Deco/11.png" id="43_rb5av"]
+[ext_resource type="Texture2D" uid="uid://b7n3f50w6m2rx" path="res://addons/Tiny Swords (Update 010)/Deco/12.png" id="44_vvm76"]
+[ext_resource type="Texture2D" uid="uid://dh7tgfcy13w7" path="res://addons/Tiny Swords (Update 010)/Deco/13.png" id="45_m3eur"]
+[ext_resource type="Texture2D" uid="uid://dwbrguhu5qlil" path="res://addons/Tiny Swords (Update 010)/Deco/14.png" id="46_blmur"]
+[ext_resource type="Texture2D" uid="uid://c6j4eshks7uaw" path="res://addons/Tiny Swords (Update 010)/Deco/15.png" id="47_jh4el"]
+[ext_resource type="Texture2D" uid="uid://dq13reqv2r8qn" path="res://addons/Tiny Swords (Update 010)/Deco/16.png" id="48_h3p17"]
+[ext_resource type="Texture2D" uid="uid://d3bces0ikdquq" path="res://addons/Tiny Swords (Update 010)/Deco/17.png" id="49_xc1yc"]
+[ext_resource type="Texture2D" uid="uid://du31d2hhxxy6u" path="res://addons/Tiny Swords (Update 010)/Deco/18.png" id="50_onr1g"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7fgib"]
+load_path = "res://.godot/imported/Explosions.png-238f00a0ebfe8dfbc92e857ac467f74e.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mpqsy"]
+load_path = "res://.godot/imported/Fire.png-4af54f458eeb09d459c51b8f7fbde83e.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xtw5x"]
+load_path = "res://.godot/imported/Goblin_House.png-0ea1d7b2873704328cae06e032955592.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1jpub"]
+load_path = "res://.godot/imported/Goblin_House_Destroyed.png-acee99ec0b69aaff0c117110f4e0c647.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3nnl4"]
+load_path = "res://.godot/imported/Wood_Tower_Blue.png-e547fc5a2af61a16e869a454ba8754de.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_g8fwh"]
+load_path = "res://.godot/imported/Wood_Tower_Destroyed.png-d6402d6e5c7d17eeefac95423413e36b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_maywh"]
+load_path = "res://.godot/imported/Wood_Tower_InConstruction.png-ed81a20d8414f5142f4904866b4ca735.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gdc54"]
+load_path = "res://.godot/imported/Wood_Tower_Purple.png-1edcd6a81f0a81322a4ef115dfab9158.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_av48f"]
+load_path = "res://.godot/imported/Wood_Tower_Red.png-508905c96600f0404feeb182a9b1d43f.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nmkho"]
+load_path = "res://.godot/imported/Wood_Tower_Yellow.png-4ad2608221eb1d0e9f0cd5fce39c603b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_agjdy"]
+load_path = "res://.godot/imported/Barrel_Blue.png-c4711dbc9650a53aa05f48ad45994cf5.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7becu"]
+load_path = "res://.godot/imported/Barrel_Purple.png-14d67ba902df67f43e745c96241291cf.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bb045"]
+load_path = "res://.godot/imported/Barrel_Red.png-9eb976f22bdbcd8b4b55b3e77a7b87d2.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mcrtx"]
+load_path = "res://.godot/imported/Barrel_Yellow.png-e30da851633f557c4f57da5a3d3cd705.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_38ird"]
+load_path = "res://.godot/imported/TNT_Blue.png-530b045af5da548a733fce7b8b576bda.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cwjil"]
+load_path = "res://.godot/imported/Dynamite.png-79359200274753fb181e46116563e012.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7i8kw"]
+load_path = "res://.godot/imported/TNT_Purple.png-602f7217d7014c2ecab96e09b028d04d.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_k5vs4"]
+load_path = "res://.godot/imported/TNT_Red.png-c98c6f04d430c97d673a058563bf923a.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3x2sq"]
+load_path = "res://.godot/imported/TNT_Yellow.png-c0e1a6ef7676ff17effd17bdb4a1d4ea.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bfwlq"]
+load_path = "res://.godot/imported/Torch_Blue.png-de9a27dc2b73ce49002d11179ab8beaf.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_42utj"]
+load_path = "res://.godot/imported/Torch_Purple.png-5b295c5d191b22fe1636395da6b5454e.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6v7xu"]
+load_path = "res://.godot/imported/Torch_Red.png-0214ed4e81ea9bb0d7dce9393b0a7b44.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4kb13"]
+load_path = "res://.godot/imported/Torch_Yellow.png-86f0ded6152f40e710c39f8b8a4a4bc3.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_e1m6x"]
+load_path = "res://.godot/imported/Castle_Blue.png-8a1c43558770e24f3cd8ed97584dfb4c.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ofpu8"]
+load_path = "res://.godot/imported/Castle_Construction.png-aae94ba0902a034f4821c97c009e167f.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7b17f"]
+load_path = "res://.godot/imported/Castle_Destroyed.png-b9b6b9cfd67e2239a83c661dc0a9a872.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cmrgp"]
+load_path = "res://.godot/imported/Castle_Purple.png-46f2e6e1e17f73ca1dfa5c00d3c12493.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_q3vlw"]
+load_path = "res://.godot/imported/Castle_Red.png-e8e2cafbfa030eb866de102c7f6f060a.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5hd5p"]
+load_path = "res://.godot/imported/Castle_Yellow.png-f504d89d1fd653eb8ada9b6f738a37cf.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_k64vw"]
+load_path = "res://.godot/imported/House_Blue.png-2e06b479e1d4dd1af9c6be9da976a74d.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_n64xe"]
+load_path = "res://.godot/imported/House_Construction.png-ba7b707ec9e46661261f86fa3f7e0ed6.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_d1uor"]
+load_path = "res://.godot/imported/House_Destroyed.png-46aca612475924229c06ec2f2d3cb898.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_m5dol"]
+load_path = "res://.godot/imported/House_Purple.png-1870bfbe0e5c57f8c060c5db775049f7.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_310y3"]
+load_path = "res://.godot/imported/House_Red.png-7ed623f18e670ebfaed98df066421e55.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3kjc6"]
+load_path = "res://.godot/imported/House_Yellow.png-82dd1e7a91d149bf70f41b851581f9d9.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jvk4o"]
+load_path = "res://.godot/imported/Tower_Blue.png-de9c0b9563eac1052ff4cf686bef5abb.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mdvn2"]
+load_path = "res://.godot/imported/Tower_Construction.png-04f76fe894e5254fde5c3171708481f9.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cinp5"]
+load_path = "res://.godot/imported/Tower_Destroyed.png-474d7800453252608c81bfa31a6360a9.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4q5fd"]
+load_path = "res://.godot/imported/Tower_Purple.png-930db7645240743848bad7d7b3e47990.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_iwo4w"]
+load_path = "res://.godot/imported/Tower_Red.png-c8602889227f92216b552cccf54f2946.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nioc3"]
+load_path = "res://.godot/imported/Tower_Yellow.png-aa91ad5837744fd52ac9081de0c49923.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0xbkl"]
+load_path = "res://.godot/imported/Archer_Blue_(NoArms).png-a3c38f1cab15424d1f325eb23727bffa.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pogi5"]
+load_path = "res://.godot/imported/Archer_Bow_Blue.png-c0ed1fcd0885766ccc24bb85055cf25a.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_y5eja"]
+load_path = "res://.godot/imported/Archer_Bow_Purple.png-d0c16344c433e14c28a243e68ddde5b5.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3ht1v"]
+load_path = "res://.godot/imported/Archer_Bow_Red.png-6e965be9bee8ce34c069b4ee486d1183.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pb6tw"]
+load_path = "res://.godot/imported/Archer_Bow_Yellow.png-a4907bbc368cc445de8fecf3345b296f.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_oah14"]
+load_path = "res://.godot/imported/Archer_Purple_(NoArms).png-579ded646bcbb87d9a83a028710eca9a.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_it3ri"]
+load_path = "res://.godot/imported/Archer_Red_(NoArms).png-20d44a4d8e0d4ffda551db7ce711fa68.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_punkt"]
+load_path = "res://.godot/imported/Archer_Yellow_(NoArms).png-20faf2457d624bb2cd2796afd3057b91.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jcwce"]
+load_path = "res://.godot/imported/Arrow.png-9f59291e7123fa5ec711f521e2f0cea5.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_834cn"]
+load_path = "res://.godot/imported/Archer_Blue.png-1cbc319328ff733633570264e9640436.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jf88t"]
+load_path = "res://.godot/imported/Archer_Purlple.png-602ebb79b76b991c5b822d9031fa04b3.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ltqnu"]
+load_path = "res://.godot/imported/Archer_Red.png-b62ae6aca6c7eca8c5c1c019cb43084c.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qhctq"]
+load_path = "res://.godot/imported/Archer_Yellow.png-39e3fec45b5cd1b090c2563e920300e7.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_uvwya"]
+load_path = "res://.godot/imported/Dead.png-64441e6edc7ec0371b4d38333da55cb7.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_436fv"]
+load_path = "res://.godot/imported/Pawn_Blue.png-59b34c7f622d84893840a65f39bf7f13.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_exrnd"]
+load_path = "res://.godot/imported/Pawn_Purple.png-da5123d5690a8de2e31bf8f18feb7434.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5op21"]
+load_path = "res://.godot/imported/Pawn_Red.png-19db662e0708b18dd1608dc937c51874.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_il41o"]
+load_path = "res://.godot/imported/Pawn_Yellow.png-a73076adceeb26e1c900d9a43e89cd9d.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bkxeg"]
+load_path = "res://.godot/imported/Warrior_Blue.png-63d8b4225963b8ecb60499a1d80a7ef8.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_peo0v"]
+load_path = "res://.godot/imported/Warrior_Purple.png-795871d91777fb23bb4ecc455f1ebd8d.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_k417r"]
+load_path = "res://.godot/imported/Warrior_Red.png-d7ae4b7d6698599e2f1ae7074461fd6c.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_o0fgc"]
+load_path = "res://.godot/imported/Warrior_Yellow.png-60cfbb6d44568bad8118300419c84dcb.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ngpoj"]
+load_path = "res://.godot/imported/GoldMine_Active.png-dcd029297276ace3b3ebc3bdb2b81e47.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_acc0w"]
+load_path = "res://.godot/imported/GoldMine_Destroyed.png-dd1f4ca011e0a693a083a49a5e1675e7.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_c5nqs"]
+load_path = "res://.godot/imported/GoldMine_Inactive.png-23db53509c0c8c30a436156b07f867d8.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vre05"]
+load_path = "res://.godot/imported/G_Idle.png-eccab898c9f3dd93d63413e896383b55.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4ab5k"]
+load_path = "res://.godot/imported/G_Idle_(NoShadow).png-26ec21c5208598b24247b99dcff357f4.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_32o61"]
+load_path = "res://.godot/imported/G_Spawn.png-307e70cbd7e2c03129d21dec472c642b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_utp40"]
+load_path = "res://.godot/imported/M_Idle.png-3ee85af3266f2b413a9f0ee85ffd2a70.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nb23r"]
+load_path = "res://.godot/imported/M_Idle_(NoShadow).png-e555ddacb86067a244b8e7b95fe2347e.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1pfi1"]
+load_path = "res://.godot/imported/M_Spawn.png-1c59a0a2a41817f18da75993e90d2773.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pe7n4"]
+load_path = "res://.godot/imported/W_Idle.png-342e0921c659bd36c615034d8e15579b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7ifx1"]
+load_path = "res://.godot/imported/W_Idle_(NoShadow).png-85d510f810e9d096de35d7c492fa3c6a.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jf4um"]
+load_path = "res://.godot/imported/W_Spawn.png-517f5a51c27cc2cdea1a5b8f660f1bda.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_c4fdg"]
+load_path = "res://.godot/imported/HappySheep_All.png-c2290a205acac2e547a394ddc79c8fbf.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qi4lw"]
+load_path = "res://.godot/imported/HappySheep_Bouncing.png-e262fa30ed73fd9d3ccc1325a324f7d9.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ftxsb"]
+load_path = "res://.godot/imported/HappySheep_Idle.png-56992a4ac5157ebd560f493d07ebe586.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_72mcu"]
+load_path = "res://.godot/imported/Tree.png-fd4603d4b3371a2a42e74b2c0a5e7c1e.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hsdq6"]
+load_path = "res://.godot/imported/Bridge_All.png-1d10e65a3edf5e7624ab172835bb1455.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7t4g0"]
+load_path = "res://.godot/imported/Shadows.png-8ac33baff8d21c2bdb1e949863b83d07.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_liqqh"]
+load_path = "res://.godot/imported/Tilemap_Elevation.png-d7b89670d395e85ff15a488a02232881.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8526x"]
+load_path = "res://.godot/imported/Tilemap_Flat.png-05c1dbb07bcf84c1345afdd809f804fd.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vkflo"]
+load_path = "res://.godot/imported/Foam.png-042be79ca3a44e16298d69158ace8f02.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fnhxg"]
+load_path = "res://.godot/imported/Rocks_01.png-aa03ff8092677d61a9b884e466488e1f.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_npq06"]
+load_path = "res://.godot/imported/Rocks_02.png-38c6d8e68747e90144db8d240106bba1.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jagp0"]
+load_path = "res://.godot/imported/Rocks_03.png-f00e4fd3acaab345e669640ef1f198e7.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5mvxg"]
+load_path = "res://.godot/imported/Rocks_04.png-4001825330eca865bd934d89addd421e.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xsk1c"]
+load_path = "res://.godot/imported/Water.png-f548709b4a19dceb27498c543d6b722e.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_55l23"]
+load_path = "res://.godot/imported/Ribbon_Blue_3Slides.png-965a86d176c3c656f6656fbaff771ccf.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ifulx"]
+load_path = "res://.godot/imported/Ribbon_Blue_Connection_Down.png-b433dfb19aea33f6df67cecfda338344.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cyro0"]
+load_path = "res://.godot/imported/Ribbon_Blue_Connection_Down_Pressed.png-9618021127e02ae1b58294d0a7f77c18.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_il2qv"]
+load_path = "res://.godot/imported/Ribbon_Blue_Connection_Left_Pressed.png-4c22d5c31b277b61ed4b561f7daad706.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_23ox3"]
+load_path = "res://.godot/imported/Ribbon_Red_3Slides.png-7efe3c3cc3c4f8713d6a5df3f7728c96.ctex"
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Explosions" type="Sprite2D" parent="."]
+position = Vector2(742, 76)
+texture = SubResource("CompressedTexture2D_7fgib")
+
+[node name="Fire" type="Sprite2D" parent="."]
+position = Vector2(698, 224)
+texture = SubResource("CompressedTexture2D_mpqsy")
+
+[node name="GoblinHouse" type="Sprite2D" parent="."]
+position = Vector2(1066, 555)
+texture = SubResource("CompressedTexture2D_xtw5x")
+
+[node name="GoblinHouseDestroyed" type="Sprite2D" parent="."]
+position = Vector2(916, 549)
+texture = SubResource("CompressedTexture2D_1jpub")
+
+[node name="WoodTowerBlue" type="Sprite2D" parent="."]
+position = Vector2(320, 557)
+texture = SubResource("CompressedTexture2D_3nnl4")
+
+[node name="WoodTowerDestroyed" type="Sprite2D" parent="."]
+position = Vector2(1055, 696)
+texture = SubResource("CompressedTexture2D_g8fwh")
+
+[node name="WoodTowerInConstruction" type="Sprite2D" parent="."]
+position = Vector2(879, 740)
+texture = SubResource("CompressedTexture2D_maywh")
+
+[node name="WoodTowerPurple" type="Sprite2D" parent="."]
+position = Vector2(330, 751)
+texture = SubResource("CompressedTexture2D_gdc54")
+
+[node name="WoodTowerRed" type="Sprite2D" parent="."]
+position = Vector2(318, 949)
+texture = SubResource("CompressedTexture2D_av48f")
+
+[node name="WoodTowerYellow" type="Sprite2D" parent="."]
+position = Vector2(309, 1170)
+texture = SubResource("CompressedTexture2D_nmkho")
+
+[node name="BarrelBlue" type="Sprite2D" parent="."]
+position = Vector2(1266, 1515)
+texture = SubResource("CompressedTexture2D_agjdy")
+
+[node name="BarrelPurple" type="Sprite2D" parent="."]
+position = Vector2(343, 1687)
+texture = SubResource("CompressedTexture2D_7becu")
+
+[node name="BarrelRed" type="Sprite2D" parent="."]
+position = Vector2(1222, 2111)
+texture = SubResource("CompressedTexture2D_bb045")
+
+[node name="BarrelYellow" type="Sprite2D" parent="."]
+position = Vector2(437, 2466)
+texture = SubResource("CompressedTexture2D_mcrtx")
+
+[node name="TntBlue" type="Sprite2D" parent="."]
+position = Vector2(1563, 2793)
+texture = SubResource("CompressedTexture2D_38ird")
+
+[node name="Dynamite" type="Sprite2D" parent="."]
+position = Vector2(1467, 3130)
+texture = SubResource("CompressedTexture2D_cwjil")
+
+[node name="TntPurple" type="Sprite2D" parent="."]
+position = Vector2(2907, 2738)
+texture = SubResource("CompressedTexture2D_7i8kw")
+
+[node name="TntRed" type="Sprite2D" parent="."]
+position = Vector2(2997, 3363)
+texture = SubResource("CompressedTexture2D_k5vs4")
+
+[node name="TntYellow" type="Sprite2D" parent="."]
+position = Vector2(1475, 3495)
+texture = SubResource("CompressedTexture2D_3x2sq")
+
+[node name="TorchBlue" type="Sprite2D" parent="."]
+position = Vector2(124, 3479)
+texture = SubResource("CompressedTexture2D_bfwlq")
+
+[node name="TorchPurple" type="Sprite2D" parent="."]
+position = Vector2(-1259, 3502)
+texture = SubResource("CompressedTexture2D_42utj")
+
+[node name="TorchRed" type="Sprite2D" parent="."]
+position = Vector2(127, 4502)
+texture = SubResource("CompressedTexture2D_6v7xu")
+
+[node name="TorchYellow" type="Sprite2D" parent="."]
+position = Vector2(-1319, 4587)
+texture = SubResource("CompressedTexture2D_4kb13")
+
+[node name="CastleBlue" type="Sprite2D" parent="."]
+position = Vector2(-500, 536)
+texture = SubResource("CompressedTexture2D_e1m6x")
+
+[node name="CastleConstruction" type="Sprite2D" parent="."]
+position = Vector2(-447, 761)
+texture = SubResource("CompressedTexture2D_ofpu8")
+
+[node name="CastleDestroyed" type="Sprite2D" parent="."]
+position = Vector2(-464, 957)
+texture = SubResource("CompressedTexture2D_7b17f")
+
+[node name="CastlePurple" type="Sprite2D" parent="."]
+position = Vector2(-477, 1195)
+texture = SubResource("CompressedTexture2D_cmrgp")
+
+[node name="CastleRed" type="Sprite2D" parent="."]
+position = Vector2(-894, 536)
+texture = SubResource("CompressedTexture2D_q3vlw")
+
+[node name="CastleYellow" type="Sprite2D" parent="."]
+position = Vector2(-890, 791)
+texture = SubResource("CompressedTexture2D_5hd5p")
+
+[node name="HouseBlue" type="Sprite2D" parent="."]
+position = Vector2(-837, 1033)
+texture = SubResource("CompressedTexture2D_k64vw")
+
+[node name="HouseConstruction" type="Sprite2D" parent="."]
+position = Vector2(-1011, 1016)
+texture = SubResource("CompressedTexture2D_n64xe")
+
+[node name="HouseDestroyed" type="Sprite2D" parent="."]
+position = Vector2(-1164, 1018)
+texture = SubResource("CompressedTexture2D_d1uor")
+
+[node name="HousePurple" type="Sprite2D" parent="."]
+position = Vector2(-834, 1226)
+texture = SubResource("CompressedTexture2D_m5dol")
+
+[node name="HouseRed" type="Sprite2D" parent="."]
+position = Vector2(-1011, 1220)
+texture = SubResource("CompressedTexture2D_310y3")
+
+[node name="HouseYellow" type="Sprite2D" parent="."]
+position = Vector2(-1192, 1226)
+texture = SubResource("CompressedTexture2D_3kjc6")
+
+[node name="TowerBlue" type="Sprite2D" parent="."]
+position = Vector2(-1200, 550)
+texture = SubResource("CompressedTexture2D_jvk4o")
+
+[node name="TowerConstruction" type="Sprite2D" parent="."]
+position = Vector2(-1175, 772)
+texture = SubResource("CompressedTexture2D_mdvn2")
+
+[node name="TowerDestroyed" type="Sprite2D" parent="."]
+position = Vector2(-1443, 566)
+texture = SubResource("CompressedTexture2D_cinp5")
+
+[node name="TowerPurple" type="Sprite2D" parent="."]
+position = Vector2(-1665, 578)
+texture = SubResource("CompressedTexture2D_4q5fd")
+
+[node name="TowerRed" type="Sprite2D" parent="."]
+position = Vector2(-1674, 821)
+texture = SubResource("CompressedTexture2D_iwo4w")
+
+[node name="TowerYellow" type="Sprite2D" parent="."]
+position = Vector2(-1456, 821)
+texture = SubResource("CompressedTexture2D_nioc3")
+
+[node name="ArcherBlue(noArms)" type="Sprite2D" parent="."]
+position = Vector2(-816, 1566)
+texture = SubResource("CompressedTexture2D_0xbkl")
+
+[node name="ArcherBowBlue" type="Sprite2D" parent="."]
+position = Vector2(-844, 1882)
+texture = SubResource("CompressedTexture2D_pogi5")
+
+[node name="ArcherBowPurple" type="Sprite2D" parent="."]
+position = Vector2(-860, 2237)
+texture = SubResource("CompressedTexture2D_y5eja")
+
+[node name="ArcherBowRed" type="Sprite2D" parent="."]
+position = Vector2(-803, 2546)
+texture = SubResource("CompressedTexture2D_3ht1v")
+
+[node name="ArcherBowYellow" type="Sprite2D" parent="."]
+position = Vector2(-817, 2831)
+texture = SubResource("CompressedTexture2D_pb6tw")
+
+[node name="ArcherPurple(noArms)" type="Sprite2D" parent="."]
+position = Vector2(-2080, 1537)
+texture = SubResource("CompressedTexture2D_oah14")
+
+[node name="ArcherRed(noArms)" type="Sprite2D" parent="."]
+position = Vector2(-2250, 1935)
+texture = SubResource("CompressedTexture2D_it3ri")
+
+[node name="ArcherYellow(noArms)" type="Sprite2D" parent="."]
+position = Vector2(-2253, 2398)
+texture = SubResource("CompressedTexture2D_punkt")
+
+[node name="Arrow" type="Sprite2D" parent="."]
+position = Vector2(-2816, 1484)
+texture = SubResource("CompressedTexture2D_jcwce")
+
+[node name="ArcherBlue" type="Sprite2D" parent="."]
+position = Vector2(-3721, 1988)
+texture = SubResource("CompressedTexture2D_834cn")
+
+[node name="ArcherPurlple" type="Sprite2D" parent="."]
+position = Vector2(-3595, 3308)
+texture = SubResource("CompressedTexture2D_jf88t")
+
+[node name="ArcherRed" type="Sprite2D" parent="."]
+position = Vector2(-3352, 4724)
+texture = SubResource("CompressedTexture2D_ltqnu")
+
+[node name="ArcherYellow" type="Sprite2D" parent="."]
+position = Vector2(-3137, 6129)
+texture = SubResource("CompressedTexture2D_qhctq")
+
+[node name="Dead" type="Sprite2D" parent="."]
+position = Vector2(-4390, 5626)
+texture = SubResource("CompressedTexture2D_uvwya")
+
+[node name="PawnBlue" type="Sprite2D" parent="."]
+position = Vector2(-4509, 6377)
+texture = SubResource("CompressedTexture2D_436fv")
+
+[node name="PawnPurple" type="Sprite2D" parent="."]
+position = Vector2(-4485, 7537)
+texture = SubResource("CompressedTexture2D_exrnd")
+
+[node name="PawnRed" type="Sprite2D" parent="."]
+position = Vector2(-3313, 7400)
+texture = SubResource("CompressedTexture2D_5op21")
+
+[node name="PawnYellow" type="Sprite2D" parent="."]
+position = Vector2(-5595, 7552)
+texture = SubResource("CompressedTexture2D_il41o")
+
+[node name="WarriorBlue" type="Sprite2D" parent="."]
+position = Vector2(-6177, 2032)
+texture = SubResource("CompressedTexture2D_bkxeg")
+
+[node name="WarriorPurple" type="Sprite2D" parent="."]
+position = Vector2(-6072, 3684)
+texture = SubResource("CompressedTexture2D_peo0v")
+
+[node name="WarriorRed" type="Sprite2D" parent="."]
+position = Vector2(-6263, 5458)
+texture = SubResource("CompressedTexture2D_k417r")
+
+[node name="WarriorYellow" type="Sprite2D" parent="."]
+position = Vector2(-7765, 5509)
+texture = SubResource("CompressedTexture2D_o0fgc")
+
+[node name="GoldMineActive" type="Sprite2D" parent="."]
+position = Vector2(-7337, 4331)
+texture = SubResource("CompressedTexture2D_ngpoj")
+
+[node name="GoldMineDestroyed" type="Sprite2D" parent="."]
+position = Vector2(-7300, 4187)
+texture = SubResource("CompressedTexture2D_acc0w")
+
+[node name="GoldMineInactive" type="Sprite2D" parent="."]
+position = Vector2(-7182, 4054)
+texture = SubResource("CompressedTexture2D_c5nqs")
+
+[node name="GIdle" type="Sprite2D" parent="."]
+position = Vector2(-7080, 4435)
+texture = SubResource("CompressedTexture2D_vre05")
+
+[node name="GIdle(noShadow)" type="Sprite2D" parent="."]
+position = Vector2(-7007, 4439)
+texture = SubResource("CompressedTexture2D_4ab5k")
+
+[node name="GSpawn" type="Sprite2D" parent="."]
+position = Vector2(-7047, 4532)
+texture = SubResource("CompressedTexture2D_32o61")
+
+[node name="MIdle" type="Sprite2D" parent="."]
+position = Vector2(-6899, 4434)
+texture = SubResource("CompressedTexture2D_utp40")
+
+[node name="MIdle(noShadow)" type="Sprite2D" parent="."]
+position = Vector2(-6810, 4434)
+texture = SubResource("CompressedTexture2D_nb23r")
+
+[node name="MSpawn" type="Sprite2D" parent="."]
+position = Vector2(-6984, 4633)
+texture = SubResource("CompressedTexture2D_1pfi1")
+
+[node name="WIdle" type="Sprite2D" parent="."]
+position = Vector2(-6738, 4436)
+texture = SubResource("CompressedTexture2D_pe7n4")
+
+[node name="WIdle(noShadow)" type="Sprite2D" parent="."]
+position = Vector2(-6652, 4446)
+texture = SubResource("CompressedTexture2D_7ifx1")
+
+[node name="WSpawn" type="Sprite2D" parent="."]
+position = Vector2(-6998, 4698)
+texture = SubResource("CompressedTexture2D_jf4um")
+
+[node name="HappySheepAll" type="Sprite2D" parent="."]
+position = Vector2(-8065, 4602)
+texture = SubResource("CompressedTexture2D_c4fdg")
+
+[node name="HappySheepBouncing" type="Sprite2D" parent="."]
+position = Vector2(-8005, 4411)
+texture = SubResource("CompressedTexture2D_qi4lw")
+
+[node name="HappySheepIdle" type="Sprite2D" parent="."]
+position = Vector2(-8040, 4232)
+texture = SubResource("CompressedTexture2D_ftxsb")
+
+[node name="Tree" type="Sprite2D" parent="."]
+position = Vector2(-8064, 3997)
+texture = SubResource("CompressedTexture2D_72mcu")
+
+[node name="BridgeAll" type="Sprite2D" parent="."]
+position = Vector2(-8063, 3520)
+texture = SubResource("CompressedTexture2D_hsdq6")
+
+[node name="Shadows" type="Sprite2D" parent="."]
+position = Vector2(-7730, 3605)
+texture = SubResource("CompressedTexture2D_7t4g0")
+
+[node name="TilemapElevation" type="Sprite2D" parent="."]
+position = Vector2(-7501, 3479)
+texture = SubResource("CompressedTexture2D_liqqh")
+
+[node name="TilemapFlat" type="Sprite2D" parent="."]
+position = Vector2(-6995, 3407)
+texture = SubResource("CompressedTexture2D_8526x")
+
+[node name="Foam" type="Sprite2D" parent="."]
+position = Vector2(-7511, 3063)
+texture = SubResource("CompressedTexture2D_vkflo")
+
+[node name="Rocks01" type="Sprite2D" parent="."]
+position = Vector2(-7664, 2882)
+texture = SubResource("CompressedTexture2D_fnhxg")
+
+[node name="Rocks02" type="Sprite2D" parent="."]
+position = Vector2(-7505, 2799)
+texture = SubResource("CompressedTexture2D_npq06")
+
+[node name="Rocks03" type="Sprite2D" parent="."]
+position = Vector2(-7469, 2699)
+texture = SubResource("CompressedTexture2D_jagp0")
+
+[node name="Rocks04" type="Sprite2D" parent="."]
+position = Vector2(-7421, 2597)
+texture = SubResource("CompressedTexture2D_5mvxg")
+
+[node name="Water" type="Sprite2D" parent="."]
+position = Vector2(-7391, 2516)
+texture = SubResource("CompressedTexture2D_xsk1c")
+
+[node name="RibbonBlue3Slides" type="Sprite2D" parent="."]
+position = Vector2(-7020, 3827)
+texture = SubResource("CompressedTexture2D_55l23")
+
+[node name="RibbonBlueConnectionDown" type="Sprite2D" parent="."]
+position = Vector2(-7083, 3729)
+texture = SubResource("CompressedTexture2D_ifulx")
+
+[node name="RibbonBlueConnectionDownPressed" type="Sprite2D" parent="."]
+position = Vector2(-7090, 3971)
+texture = SubResource("CompressedTexture2D_cyro0")
+
+[node name="RibbonBlueConnectionLeftPressed" type="Sprite2D" parent="."]
+position = Vector2(-6997, 4140)
+texture = SubResource("CompressedTexture2D_il2qv")
+
+[node name="RibbonRed3Slides" type="Sprite2D" parent="."]
+position = Vector2(-7052, 4306)
+texture = SubResource("CompressedTexture2D_23ox3")
+
+[node name="CarvedRegular" type="Sprite2D" parent="."]
+position = Vector2(1211, 4131)
+texture = ExtResource("1_t4qks")
+
+[node name="Carved9Slides" type="Sprite2D" parent="."]
+position = Vector2(1385, 4132)
+texture = ExtResource("2_s2v7l")
+
+[node name="Carved3Slides" type="Sprite2D" parent="."]
+position = Vector2(1594, 4080)
+texture = ExtResource("3_q5aq1")
+
+[node name="BannerVertical" type="Sprite2D" parent="."]
+position = Vector2(1559, 4199)
+texture = ExtResource("4_4hau3")
+
+[node name="BannerHorizontal" type="Sprite2D" parent="."]
+position = Vector2(1697, 4186)
+texture = ExtResource("5_4ecm7")
+
+[node name="BannerConnectionUp" type="Sprite2D" parent="."]
+position = Vector2(1742, 4077)
+texture = ExtResource("6_i846x")
+
+[node name="BannerConnectionRight" type="Sprite2D" parent="."]
+position = Vector2(1847, 4091)
+texture = ExtResource("7_54x8b")
+
+[node name="BannerConnectionLeft" type="Sprite2D" parent="."]
+position = Vector2(1902, 4226)
+texture = ExtResource("8_1hcw2")
+
+[node name="BannerConnectionDown" type="Sprite2D" parent="."]
+position = Vector2(2016, 4105)
+texture = ExtResource("9_ikmfn")
+
+[node name="ButtonBlue" type="Sprite2D" parent="."]
+position = Vector2(1287, 4333)
+texture = ExtResource("10_tauqn")
+
+[node name="ButtonBlue3Slides" type="Sprite2D" parent="."]
+position = Vector2(1494, 4336)
+texture = ExtResource("11_jrg2c")
+
+[node name="ButtonBlue3SlidesPressed" type="Sprite2D" parent="."]
+position = Vector2(1685, 4330)
+texture = ExtResource("12_d8esf")
+
+[node name="ButtonBlue9Slides" type="Sprite2D" parent="."]
+position = Vector2(1882, 4409)
+texture = ExtResource("13_ih23y")
+
+[node name="ButtonBlue9SlidesPressed" type="Sprite2D" parent="."]
+position = Vector2(2070, 4410)
+texture = ExtResource("14_adff1")
+
+[node name="ButtonBluePressed" type="Sprite2D" parent="."]
+position = Vector2(1356, 4331)
+texture = ExtResource("15_6kj2b")
+
+[node name="ButtonDisable" type="Sprite2D" parent="."]
+position = Vector2(1354, 4402)
+texture = ExtResource("16_bcunk")
+
+[node name="ButtonDisable3Slides" type="Sprite2D" parent="."]
+position = Vector2(1684, 4396)
+texture = ExtResource("17_mtekm")
+
+[node name="ButtonDisable9Slides" type="Sprite2D" parent="."]
+position = Vector2(2096, 4842)
+texture = ExtResource("18_3486d")
+
+[node name="ButtonHover" type="Sprite2D" parent="."]
+position = Vector2(1291, 4399)
+texture = ExtResource("19_oce4e")
+
+[node name="ButtonHover3Slides" type="Sprite2D" parent="."]
+position = Vector2(1503, 4399)
+texture = ExtResource("20_ic60d")
+
+[node name="ButtonHover9Slides" type="Sprite2D" parent="."]
+position = Vector2(1892, 4848)
+texture = ExtResource("21_rddeb")
+
+[node name="ButtonRed" type="Sprite2D" parent="."]
+position = Vector2(1283, 4466)
+texture = ExtResource("22_o758d")
+
+[node name="ButtonRed3Slides" type="Sprite2D" parent="."]
+position = Vector2(1504, 4476)
+texture = ExtResource("23_ne8va")
+
+[node name="ButtonRed3SlidesPressed" type="Sprite2D" parent="."]
+position = Vector2(1691, 4481)
+texture = ExtResource("24_20mhv")
+
+[node name="ButtonRed9Slides" type="Sprite2D" parent="."]
+position = Vector2(1884, 4609)
+texture = ExtResource("25_r58sk")
+
+[node name="ButtonRed9SlidesPressed" type="Sprite2D" parent="."]
+position = Vector2(2095, 4617)
+texture = ExtResource("26_bl0ua")
+
+[node name="ButtonRedPressed" type="Sprite2D" parent="."]
+position = Vector2(1360, 4459)
+texture = ExtResource("27_qgxm8")
+
+[node name="01" type="Sprite2D" parent="."]
+position = Vector2(1365, 4558)
+texture = ExtResource("28_13s2t")
+
+[node name="02" type="Sprite2D" parent="."]
+position = Vector2(1287, 4547)
+texture = ExtResource("29_yexff")
+
+[node name="RibbonBlue3Slides2" type="Sprite2D" parent="."]
+position = Vector2(1687, 4575)
+texture = ExtResource("30_rn46q")
+
+[node name="RibbonRed3Slides2" type="Sprite2D" parent="."]
+position = Vector2(1693, 4650)
+texture = ExtResource("31_44tdn")
+
+[node name="RibbonYellow3Slides" type="Sprite2D" parent="."]
+position = Vector2(1689, 4730)
+texture = ExtResource("32_2gycj")
+
+[node name="03" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("33_8j7q2")
+
+[node name="04" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("34_g30xg")
+
+[node name="05" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("35_ialwe")
+
+[node name="06" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("36_2lkh2")
+
+[node name="07" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("37_0714y")
+
+[node name="08" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("38_hc7c6")
+
+[node name="09" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("39_4be5h")
+
+[node name="10" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("40_niqyr")
+
+[node name="11" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("41_wj8js")
+
+[node name="12" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("42_46vvn")
+
+[node name="13" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("43_rb5av")
+
+[node name="14" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("44_vvm76")
+
+[node name="15" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("45_m3eur")
+
+[node name="16" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("46_blmur")
+
+[node name="17" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("47_jh4el")
+
+[node name="18" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("48_h3p17")
+
+[node name="19" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("49_xc1yc")
+
+[node name="20" type="Sprite2D" parent="."]
+position = Vector2(2452, 4231)
+texture = ExtResource("50_onr1g")
+
+[node name="21" type="Sprite2D" parent="."]
+position = Vector2(2577, 4256)
+texture = ExtResource("49_xc1yc")
+
+[node name="22" type="Sprite2D" parent="."]
+position = Vector2(2368, 4265)
+texture = ExtResource("48_h3p17")
+
+[node name="23" type="Sprite2D" parent="."]
+position = Vector2(2351, 4176)
+texture = ExtResource("47_jh4el")
+
+[node name="24" type="Sprite2D" parent="."]
+position = Vector2(2405, 4165)
+texture = ExtResource("46_blmur")
+
+[node name="25" type="Sprite2D" parent="."]
+position = Vector2(2459, 4159)
+texture = ExtResource("45_m3eur")
+
+[node name="26" type="Sprite2D" parent="."]
+position = Vector2(2527, 4159)
+texture = ExtResource("44_vvm76")
+
+[node name="27" type="Sprite2D" parent="."]
+position = Vector2(2506, 4205)
+texture = ExtResource("43_rb5av")
+
+[node name="28" type="Sprite2D" parent="."]
+position = Vector2(2500, 4240)
+texture = ExtResource("42_46vvn")
+
+[node name="29" type="Sprite2D" parent="."]
+position = Vector2(2573, 4187)
+texture = ExtResource("41_wj8js")
+
+[node name="30" type="Sprite2D" parent="."]
+position = Vector2(2580, 4152)
+texture = ExtResource("40_niqyr")
+
+[node name="31" type="Sprite2D" parent="."]
+position = Vector2(2637, 4186)
+texture = ExtResource("39_4be5h")
+
+[node name="32" type="Sprite2D" parent="."]
+position = Vector2(2642, 4232)
+texture = ExtResource("38_hc7c6")
+
+[node name="33" type="Sprite2D" parent="."]
+position = Vector2(2529, 4294)
+texture = ExtResource("37_0714y")
+
+[node name="34" type="Sprite2D" parent="."]
+position = Vector2(2628, 4289)
+texture = ExtResource("36_2lkh2")
+
+[node name="35" type="Sprite2D" parent="."]
+position = Vector2(2661, 4283)
+texture = ExtResource("35_ialwe")
+
+[node name="36" type="Sprite2D" parent="."]
+position = Vector2(2642, 4315)
+texture = ExtResource("34_g30xg")
+
+[node name="37" type="Sprite2D" parent="."]
+position = Vector2(2578, 4328)
+texture = ExtResource("33_8j7q2")

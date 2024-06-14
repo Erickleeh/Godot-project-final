@@ -1,0 +1,57 @@
+[gd_scene load_steps=6 format=3 uid="uid://ugb5p5l1horf"]
+
+[ext_resource type="PackedScene" uid="uid://hevmgjjbouai" path="res://player/player.tscn" id="1_vjr4a"]
+[ext_resource type="PackedScene" uid="uid://o4nna71j5iy4" path="res://enemies/pawn.tscn" id="2_yabof"]
+[ext_resource type="PackedScene" uid="uid://od2q67q5ah0n" path="res://enemies/goblin_gigante.tscn" id="3_30cpy"]
+[ext_resource type="PackedScene" uid="uid://vk8c4oy7g5e3" path="res://enemies/ovelha.tscn" id="4_nxtxm"]
+[ext_resource type="PackedScene" uid="uid://q4j5sn1bekm" path="res://misc/meat.tscn" id="5_dew3y"]
+
+[node name="TestBattle" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_vjr4a")]
+position = Vector2(329, 379)
+
+[node name="Pawn" parent="." instance=ExtResource("2_yabof")]
+position = Vector2(1285, 427)
+
+[node name="Pawn3" parent="." instance=ExtResource("2_yabof")]
+position = Vector2(1299, 525)
+
+[node name="Pawn4" parent="." instance=ExtResource("2_yabof")]
+position = Vector2(1313, 160)
+
+[node name="Goblin" parent="." instance=ExtResource("3_30cpy")]
+position = Vector2(1303, 313)
+
+[node name="Ovelha" parent="." instance=ExtResource("4_nxtxm")]
+position = Vector2(980, 77)
+
+[node name="Ovelha2" parent="." instance=ExtResource("4_nxtxm")]
+position = Vector2(1054, 78)
+
+[node name="Ovelha4" parent="." instance=ExtResource("4_nxtxm")]
+position = Vector2(1120, 603)
+
+[node name="Ovelha5" parent="." instance=ExtResource("4_nxtxm")]
+position = Vector2(1075, 129)
+
+[node name="Ovelha6" parent="." instance=ExtResource("4_nxtxm")]
+position = Vector2(1130, 352)
+
+[node name="Pawn2" parent="." instance=ExtResource("2_yabof")]
+position = Vector2(1668, 473)
+
+[node name="Pawn5" parent="." instance=ExtResource("2_yabof")]
+position = Vector2(1632, 104)
+
+[node name="Pawn6" parent="." instance=ExtResource("2_yabof")]
+position = Vector2(2094, 570)
+
+[node name="Pawn7" parent="." instance=ExtResource("2_yabof")]
+position = Vector2(2275, 78)
+
+[node name="Pawn8" parent="." instance=ExtResource("2_yabof")]
+position = Vector2(2372, 304)
+
+[node name="Meat" parent="." instance=ExtResource("5_dew3y")]
+position = Vector2(777, 503)
